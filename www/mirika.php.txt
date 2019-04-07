@@ -1,3 +1,7 @@
 <?php
 echo "hello nainsi";
+$a=5;
+$b=10;
+$c=$a+$b;
+echo "sum is".$c;
 ?>
