@@ -93,11 +93,11 @@
                   <input type="text" id="team_name" name = "team_name" class="form-control">
                 </div>
 				
-				<div class="col-md-6">
+				        <div class="col-md-6">
                   <label class="" for="contact">Contact Number</label> 
                   <input type="number" minlength = "10" maxlength = "10" id="contact" name = "contact" class="form-control">
                 </div>
-				</div>
+				      </div>
 
                 <!-- <div class="col-md-12">
                   <label class="" for="team_leader_name">Team Leader Name</label>
@@ -112,7 +112,7 @@
                   <input type="number" maxlength="10" minlength="10" id="team_member" name = "team_member" class="form-control">
                 </div> -->
 			
-				<div class="row form-group">
+				      <div class="row form-group">
                 <div class="col-md-6">
                   <label class="" for="email">Email ID</label> 
                   <input type="email" id="email" name = "email" class="form-control">
