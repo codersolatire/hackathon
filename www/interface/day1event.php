@@ -4,8 +4,8 @@
     <div class="row align-items-stretch">
       <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">8:00</span> <span>AM</span></div>
       <div class="col-md-9">
-        <h2 class="text-white">Day 2 Event</h2>
-        <span>Riya u have to change here about the day 2 events</span>
+        <h2 class="text-white">Day 1 Event</h2>
+        <span>Riya u have to change here about the day 1 events</span>
       </div>
     </div>
   </div>

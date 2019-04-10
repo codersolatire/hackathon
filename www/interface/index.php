@@ -17,8 +17,9 @@
     <link rel="stylesheet" href="/css/aos.css">
 
     <link rel="stylesheet" href="/css/style.css">
+
   </head>
-  <body>
+  <body onload="renderonload()">
   
   <div class="site-wrap">
 
@@ -99,78 +100,21 @@
 
         <div class="row align-items-stretch program">
     			<div class="col-lg-4 mt-3 pl-lg-3" data-aos="fade-up" data-aos-delay="100">
-    				<a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Day-1</span></a>
+    				<button class="btn-custom" data-aos="fade-up" data-aos-delay="400" id = "day1event" onclick="renderday1(this,event)"><span>Day-1</span></a>
           </div>
     			
     			<div class="col-lg-4 mt-3 pl-lg-3" data-aos="fade-up" data-aos-delay="100">
-    				<a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Day-2</span></a>
+    				<button class="btn-custom" data-aos="fade-up" data-aos-delay="400" id = "day2event" onclick="renderday2(this,event)"><span>Day-2</span></a>
           </div>
     			
     			<div class="col-lg-4 mt-3 pl-lg-3" data-aos="fade-up" data-aos-delay="100">
-    				<a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Day-3</span></a>
+    				<button class="btn-custom" data-aos="fade-up" data-aos-delay="400" id = "day3event" onclick="renderday3(this,event)"><span>Day-3</span></a>
           </div>
         </div>
 
         <!-- Program Details Start -->
         <div class="row align-items-stretch program" id = "program_details">
-          <div class="col-12 border-top border-bottom py-5" data-aos="fade" data-aos-delay="200">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">8:00</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="300">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">9:30</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="400">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">10:30</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="500">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">10:45</span> <span>NOON</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Break With Snacks</h2>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="600">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">11:30</span> <span>AM</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Design your open source strategy</h2>
-                <span>Chris Mathews</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="700">
-            <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">12:00</span> <span>NOON</span></div>
-              <div class="col-md-9">
-                <h2 class="text-white">Break For Lunch</h2>
-              </div>
-            </div>
-          </div>
-
+      
         </div>
         <!-- Program Details End -->
       </div>
@@ -332,8 +276,32 @@
   <script src="/js/jquery.magnific-popup.min.js"></script>
   <script src="/js/bootstrap-datepicker.min.js"></script>
   <script src="/js/aos.js"></script>
+  <script src="/locus/locusjs/wrapjs.js"></script>
 
   <script src="/js/main.js"></script>
-    
+
+  <script type="text/javascript">
+    function renderday1(target,event)
+    {
+      ajax(document.getElementById("day1event"),"day1event.php",document.getElementById("program_details"));
+    }
+
+    function renderday2(target,event)
+    {
+      ajax(document.getElementById("day2event"),"day2event.php",document.getElementById("program_details"));
+    }
+
+    function renderday3(target,event)
+    {
+      ajax(document.getElementById("day3event"),"day3event.php",document.getElementById("program_details"));
+    }
+
+    function renderonload()
+    {
+      ajaxonload("day1event.php",document.getElementById("program_details"))
+    }
+
+    // document.getElementById("day1event").click()
+  </script>
   </body>
 </html>
