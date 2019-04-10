@@ -41,8 +41,8 @@
     <header class="site-navbar py-3" role="banner">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-11 col-xl-2">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">HACKATHON<span class="text-primary">2.0</span> </a></h1>
+          <div class="col-12 col-xl-3">
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">HACKATHON <span class="text-primary">2.0</span> </a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -92,8 +92,13 @@
                   <label class="" for="team_name">Participant's Name</label>
                   <input type="text" id="team_name" name = "team_name" class="form-control">
                 </div>
+				
+				<div class="col-md-6">
+                  <label class="" for="contact">Contact Number</label> 
+                  <input type="number" min = "10" max = "10" id="contact" name = "contact" class="form-control">
+                </div>
 
-                <!-- <div class="col-md-6">
+                <!-- <div class="col-md-12">
                   <label class="" for="team_leader_name">Team Leader Name</label>
                   <input type="text" id="team_leader_name" name = "team_leader_name" class="form-control">
                 </div>
@@ -101,19 +106,20 @@
 
               <div class="row form-group">
                 
-                <div class="col-md-4">
+                <div class="col-md-12">
                   <label class="" for="team_member">Number Of Team Members</label> 
-                  <input type="number" min = "3" max = "5" id="team_member" name = "team_member" class="form-control">
+                  <input type="number" maxlength="10" minlength="10" id="team_member" name = "team_member" class="form-control">
                 </div> -->
-
-                <div class="col-md-8">
+			
+					<div class="row form-group">
+                <div class="col-md-6">
                   <label class="" for="email">Email ID</label> 
                   <input type="email" id="email" name = "email" class="form-control">
                 </div>
-              </div>
+              
 
-              <div class="row form-group">
-                <div class="col-md-12">
+              
+                <div class="col-md-6">
                   <label class="" for="password">Password</label> 
                   <input type="password" id="password" name = "password" class="form-control">
                 </div>
@@ -139,7 +145,7 @@
             <div class="p-4 mb-3">
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Note:</p>
 			  <!--<p class="mb-4">Each team could have a minimum of 3 & a maximum of 5 members</p>-->
-              <p class="mb-4">Each participant have to submit 50 INR for the Tekken</p>
+              <p class="mb-4">Each participant have to submit 50 INR for the Tekken.</p>
 
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Phone</p>
               <p class="mb-4"><a href="#">+91-6396754998</a></p>
