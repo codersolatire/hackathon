@@ -3,10 +3,12 @@
 	{
 		var $username;
 		var $password;
+		var $dbname;
 		
-		function __construct($username,$password){
+		function __construct($username,$password,$dbname){
 			$this->username = $username;
 			$this->password = $password;
+			$this->dbname = $dbname;
 		}
 
 		function getuser()
@@ -17,6 +19,11 @@
 		function getpass()
 		{
 			return $this->password;
+		}
+
+		function getdbname()
+		{
+			return $this->dbname;
 		}
 	}
 ?>

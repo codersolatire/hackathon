@@ -1,26 +1,17 @@
 <?php
-	include "../locus/db/mysql/db_connect.php";
+	include "../database/register.php";
 
-	$con = new db_connect("hackathon");
-	// $db = $con->connect();
+	$reg = new registration();
 
-	$query = "insert into test values(1,'Parth Singh')";
+	$res = $reg->hackathon('1','college_name','team_name','team_leader_name','program','2019','2','mobile','email','password','other_members');
 
-	// $res = $con->db_action($query);
-
-	// if($res)
-	// {
-	// 	echo "Yes";
-	// }
-	// else
-	// {
-	// 	echo "No";
-	// }
-
-
-	if (mysqli_query($con, $query)) {
-	    echo "New record created successfully";
-	} else {
-	    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+	if($res)
+	{
+		echo $reg->msg;
 	}
+	else
+	{
+		echo "False".$reg->msg;
+	}
+
 ?>

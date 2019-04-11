@@ -113,15 +113,9 @@
               </div>
 
 				<div class="row form-group">
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <label class="" for="email">Email ID</label> 
                   <input type="email" id="email" name = "email" class="form-control">
-                </div>
-              
-
-               <div class="col-md-6">
-                  <label class="" for="password">Password</label> 
-                  <input type="password" id="password" name = "password" class="form-control">
                 </div>
               </div>
 

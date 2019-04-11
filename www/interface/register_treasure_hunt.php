@@ -98,6 +98,18 @@
                   <input type="text" id="team_leader_name" name = "team_leader_name" class="form-control">
                 </div>
               </div>
+
+              <div class="row form-group">
+                <div class="col-md-6">
+                  <label class="" for="team_member">Number Of Team Members</label> 
+                  <input type="number" min = "3" max = "5" id="team_member" name = "team_member" class="form-control">
+                </div>
+        
+                <div class="col-md-6">
+                    <label class="" for="contact">Contact Number</label> 
+                    <input type="number" minlength = "10" maxlength = "10" id="contact" name = "contact" class="form-control">
+                </div>
+              </div>
 			  
 			  <div class = "row form-group">
                 <div class="col-md-6">
@@ -110,20 +122,6 @@
                   <input type="number" id="year" name = "year" class="form-control">
                 </div>
               </div>
-			  
-
-              <div class="row form-group">
-                
-                <div class="col-md-6">
-                  <label class="" for="team_member">Number Of Team Members</label> 
-                  <input type="number" min = "3" max = "5" id="team_member" name = "team_member" class="form-control">
-                </div>
-				
-				 <div class="col-md-6">
-                  <label class="" for="contact">Contact Number</label> 
-                  <input type="number" minlength = "10" maxlength = "10" id="contact" name = "contact" class="form-control">
-                </div>
-				</div>
 
 				<div class="row form-group">
                 <div class="col-md-6">

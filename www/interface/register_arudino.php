@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TEKKEN &mdash; registration</title>
+    <title>arduino &mdash; Colorlib Website Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,7 +21,7 @@
     <script type="text/javascript">
       function payemntpage(resp,event)
       {
-        alert("Successfully Registered. Move to the payment page");
+        alert("Successfully registered. Move to payemnt page");
       }
     </script>
   </head>
@@ -42,7 +42,7 @@
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-12 col-xl-3">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">HACKATHON <span class="text-primary">2.0</span> </a></h1>
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Hackathon <span class="text-primary">2.0</span> </a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -66,8 +66,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
-            <span class="d-block mb-3 caption" data-aos="fade-up">Welcome </span>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Tekken Registration</h1>
+            <span class="d-block mb-3 caption" data-aos="fade-up">Welcome</span>
+            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Arduino Workshop Registration</h1>
           </div>
         </div>
       </div>
@@ -92,56 +92,39 @@
                   <label class="" for="participant_name">Participant's Name</label>
                   <input type="text" id="participant_name" name = "participant_name" class="form-control">
                 </div>
-				
-				        <div class="col-md-6">
+
+			  
+				 <div class="col-md-6">
                   <label class="" for="contact">Contact Number</label> 
-                  <input type="number" min = "10" max = "10" id="contact" name = "contact" class="form-control">
+                  <input type="number" minlength = "13" maxlength = "13" id="contact" name = "contact" class="form-control">
                 </div>
-              </div>
+				</div>
+				 
+				 <div class = "row form-group">
+            <div class="col-md-6">
+              <label class="" for="program">Program</label>
+              <input type="text" id="program" name = "program" class="form-control">
+            </div>
 
-              <div class = "row form-group">
-                <div class="col-md-6">
-                  <label class="" for="course">Course</label>
-                  <input type="text" id="course" name = "course" class="form-control">
-                </div>
-        
-                <div class="col-md-6">
-                  <label class="" for="year">Year</label> 
-                  <input type="number" min = "10" max = "10" id="year" name = "year" class="form-control">
-                </div>
-              </div>
+            <div class="col-md-6">
+              <label class="" for="year">Year</label>
+              <input type="number" id="year" min = "1" max = "5" name = "year" class="form-control">
+            </div>
+          </div>
 
-                <!-- <div class="col-md-12">
-                  <label class="" for="team_leader_name">Team Leader Name</label>
-                  <input type="text" id="team_leader_name" name = "team_leader_name" class="form-control">
-                </div>
-              </div>
+				<div class="row form-group">
+            <div class="col-md-12">
+              <label class="" for="email">Email ID</label> 
+              <input type="email" id="email" name = "email" class="form-control">
+            </div>
+          
+          </div>
 
-              <div class="row form-group">
-                 <div class="col-md-12">
-                  <label class="" for="team_member">Number Of Team Members</label> 
-                  <input type="number" maxlength="10" minlength="10" id="team_member" name = "team_member" class="form-control">
-                </div> -->
-			
-      				<div class="row form-group">
-                <div class="col-md-12">
-                  <label class="" for="email">Email ID</label> 
-                  <input type="email" id="email" name = "email" class="form-control">
-                </div>
-              </div>
-
-              <!--<div class="row form-group">
-                <div class="col-md-12">
-                  <label class="" for="other_members">Other Team Member Name (, Seperated)</label> 
-                  <input type="text" id="other_members" name = "other_members" class="form-control">
-                </div>
-              </div>-->
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Proceed to Payment" onclick="payemntpage(this,event)" class="btn btn-primary py-2 px-4 text-white">
-                </div>
-              </div>
+          <div class="row form-group">
+            <div class="col-md-12">
+              <input type="submit" value="Proceed to Payment" onclick="payemntpage(this,event)" class="btn btn-primary py-2 px-4 text-white">
+            </div>
+          </div>
 
   
             </form>
@@ -149,8 +132,7 @@
           <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="p-4 mb-3">
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Note:</p>
-			  <!--<p class="mb-4">Each team could have a minimum of 3 & a maximum of 5 members</p>-->
-              <p class="mb-4">Each participant have to submit 50 INR for the Tekken.</p>
+              <p class="mb-4">Learn & Enjoy</p>
 
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Phone</p>
               <p class="mb-4"><a href="#">+91-6396754998</a></p>

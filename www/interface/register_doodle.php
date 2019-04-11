@@ -98,8 +98,20 @@
                   <input type="text" id="team_leader_name" name = "team_leader_name" class="form-control">
                 </div>
               </div>
+
+              <div class="row form-group">
+                <div class="col-md-6">
+                  <label class="" for="team_member">Number Of Team Members</label> 
+                  <input type="number" min = "4" max = "4" id="team_member" name = "team_member" class="form-control">
+                </div>
+              
+                <div class="col-md-6">
+                  <label class="" for="contact">Contact Number</label> 
+                  <input type="number" minlength = "10" maxlength = "10" id="contact" name = "contact" class="form-control">
+                </div>
+              </div>
 			  
-			  <div class = "row form-group">
+      			  <div class = "row form-group">
                 <div class="col-md-6">
                   <label class="" for="program">Program</label>
                   <input type="text" id="program" name = "program" class="form-control">
@@ -110,31 +122,11 @@
                   <input type="number" id="year" name = "year" class="form-control">
                 </div>
               </div>
-			  
 
-              <div class="row form-group">
-                
-                <div class="col-md-6">
-                  <label class="" for="team_member">Number Of Team Members</label> 
-                  <input type="number" min = "4" max = "4" id="team_member" name = "team_member" class="form-control">
-                </div>
-				
-				 <div class="col-md-6">
-                  <label class="" for="contact">Contact Number</label> 
-                  <input type="number" minlength = "10" maxlength = "10" id="contact" name = "contact" class="form-control">
-                </div>
-				</div>
-
-				<div class="row form-group">
-                <div class="col-md-6">
+				      <div class="row form-group">
+                <div class="col-md-12">
                   <label class="" for="email">Email ID</label> 
                   <input type="email" id="email" name = "email" class="form-control">
-                </div>
-              
-
-               <div class="col-md-6">
-                  <label class="" for="password">Password</label> 
-                  <input type="password" id="password" name = "password" class="form-control">
                 </div>
               </div>
 
