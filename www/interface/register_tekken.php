@@ -47,12 +47,12 @@
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="speakers.html">Speakers</a></li>
-                <li><a href="news.html">News</a></li>
-                <li class="active"><a href="contact.html">Contacts</a></li>
-                <li class="cta"><a href="buy-tickets.html">Buy Tickets</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="speakers.php">Speakers</a></li>
+                <li><a href="news.php">News</a></li>
+                <li class="active"><a href="contact.php">Contacts</a></li>
+                <li class="cta"><a href="buy-tickets.php">Buy Tickets</a></li>
               </ul>
             </nav>
           </div>
@@ -89,27 +89,15 @@
 
               <div class = "row form-group">
                 <div class="col-md-6">
-                  <label class="" for="participant_name">Participant's Name</label>
-                  <input type="text" id="participant_name" name = "participant_name" class="form-control">
+                  <label class="" for="team_name">Participant's Name</label>
+                  <input type="text" id="team_name" name = "team_name" class="form-control">
                 </div>
 				
 				        <div class="col-md-6">
                   <label class="" for="contact">Contact Number</label> 
-                  <input type="number" min = "10" max = "10" id="contact" name = "contact" class="form-control">
+                  <input type="number" minlength = "10" maxlength = "10" id="contact" name = "contact" class="form-control">
                 </div>
-              </div>
-
-              <div class = "row form-group">
-                <div class="col-md-6">
-                  <label class="" for="course">Course</label>
-                  <input type="text" id="course" name = "course" class="form-control">
-                </div>
-        
-                <div class="col-md-6">
-                  <label class="" for="year">Year</label> 
-                  <input type="number" min = "10" max = "10" id="year" name = "year" class="form-control">
-                </div>
-              </div>
+				      </div>
 
                 <!-- <div class="col-md-12">
                   <label class="" for="team_leader_name">Team Leader Name</label>
@@ -118,15 +106,23 @@
               </div>
 
               <div class="row form-group">
-                 <div class="col-md-12">
+                
+                <div class="col-md-12">
                   <label class="" for="team_member">Number Of Team Members</label> 
                   <input type="number" maxlength="10" minlength="10" id="team_member" name = "team_member" class="form-control">
                 </div> -->
 			
-      				<div class="row form-group">
-                <div class="col-md-12">
+				      <div class="row form-group">
+                <div class="col-md-6">
                   <label class="" for="email">Email ID</label> 
                   <input type="email" id="email" name = "email" class="form-control">
+                </div>
+              
+
+              
+                <div class="col-md-6">
+                  <label class="" for="password">Password</label> 
+                  <input type="password" id="password" name = "password" class="form-control">
                 </div>
               </div>
 
@@ -262,37 +258,14 @@
       
     <footer class="site-footer">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-4">
-            <h2 class="footer-heading text-uppercase mb-4">About Event</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto.</p>
-          </div>
-          <div class="col-md-3 ml-auto">
-            <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
-            <ul class="list-unstyled">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Speakers</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h2 class="footer-heading text-uppercase mb-4">Connect with Us</h2>
-            <p>
-              <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-              <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-2"><span class="icon-youtube"></span></a>
-              <a href="#" class="p-2"><span class="icon-instagram"></span></a>
-            </p>
-          </div>
-        </div>
+        
         <div class="row">
           
             <div class="col-md-12 text-center">
               <div class="border-top pt-5">
               <p>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights reserved| Hackathon HSST|</i><a href="http://srhu.edu.in" target="_blank" >SRHU</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>

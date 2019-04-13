@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hackathon &mdash; Colorlib Website Template</title>
+    <title>Workshop &mdash; Colorlib Website Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -41,18 +41,18 @@
     <header class="site-navbar py-3" role="banner">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-12 col-xl-3">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Hackathon <span class="text-primary">2.0</span> </a></h1>
+          <div class="col-11 col-xl-2">
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Work<span class="text-primary">shop</span> </a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="speakers.html">Speakers</a></li>
-                <li><a href="news.html">News</a></li>
-                <li class="active"><a href="contact.html">Contacts</a></li>
-                <li class="cta"><a href="buy-tickets.html">Buy Tickets</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="speakers.php">Speakers</a></li>
+                
+                <li class="active"><a href="contact.php">Contacts</a></li>
+                <li class="cta"><a href="buy-tickets.php">Buy Tickets</a></li>
               </ul>
             </nav>
           </div>
@@ -66,7 +66,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
-            <span class="d-block mb-3 caption" data-aos="fade-up">Welcome</span>
+            <span class="d-block mb-3 caption" data-aos="fade-up">Fill Form</span>
             <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Hackathon Registration</h1>
           </div>
         </div>
@@ -98,41 +98,22 @@
                   <input type="text" id="team_leader_name" name = "team_leader_name" class="form-control">
                 </div>
               </div>
-			  
-			  <div class = "row form-group">
-                <div class="col-md-6">
-                  <label class="" for="program">Program</label>
-                  <input type="text" id="program" name = "program" class="form-control">
-                </div>
-
-                <div class="col-md-6">
-                  <label class="" for="year">Year</label>
-                  <input type="number" id="year" name = "year" class="form-control">
-                </div>
-              </div>
-			  
 
               <div class="row form-group">
                 
-                <div class="col-md-6">
-                  <label class="" for="team_member">Number Of Team Members</label> 
+                <div class="col-md-4">
+                  <label class="" for="team_member">Team Members</label> 
                   <input type="number" min = "3" max = "5" id="team_member" name = "team_member" class="form-control">
                 </div>
-				
-				 <div class="col-md-6">
-                  <label class="" for="contact">Contact Number</label> 
-                  <input type="number" minlength = "10" maxlength = "10" id="contact" name = "contact" class="form-control">
-                </div>
-				</div>
 
-				<div class="row form-group">
-                <div class="col-md-6">
+                <div class="col-md-8">
                   <label class="" for="email">Email ID</label> 
                   <input type="email" id="email" name = "email" class="form-control">
                 </div>
-              
+              </div>
 
-               <div class="col-md-6">
+              <div class="row form-group">
+                <div class="col-md-12">
                   <label class="" for="password">Password</label> 
                   <input type="password" id="password" name = "password" class="form-control">
                 </div>
@@ -157,7 +138,7 @@
           <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="p-4 mb-3">
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Note</p>
-              <p class="mb-4">Each member has to submit Rs. 50 for the Hackathon main event</p>
+              <p class="mb-4">Each member has to submit Rs. 50 for the hackahton main event</p>
 
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Phone</p>
               <p class="mb-4"><a href="#">+91-6396754998</a></p>
@@ -269,37 +250,14 @@
       
     <footer class="site-footer">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-4">
-            <h2 class="footer-heading text-uppercase mb-4">About Event</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto.</p>
-          </div>
-          <div class="col-md-3 ml-auto">
-            <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
-            <ul class="list-unstyled">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Speakers</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h2 class="footer-heading text-uppercase mb-4">Connect with Us</h2>
-            <p>
-              <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-              <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-2"><span class="icon-youtube"></span></a>
-              <a href="#" class="p-2"><span class="icon-instagram"></span></a>
-            </p>
-          </div>
-        </div>
+        
         <div class="row">
           
             <div class="col-md-12 text-center">
               <div class="border-top pt-5">
               <p>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights reserved| Hackathon HSST|</i><a href="http://srhu.edu.in" target="_blank" >SRHU</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>

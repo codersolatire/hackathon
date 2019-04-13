@@ -35,17 +35,17 @@
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-11 col-xl-2">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Hackathon<span class="text-primary"> 2.0</span> </a></h1>
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">HSST|<span class="text-primary">SRHU</span> </a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="about.html">About Us</a></li>
-                <li><a href="speakers.html">Speakers</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-                <li class="cta"><a href="buy-tickets.html">Buy Tickets</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li class="active"><a href="about.php">About Us</a></li>
+                <li><a href="speakers.php">Speakers</a></li>
+                <li><a href="news.php">News</a></li>
+                <li><a href="contact.php">Contacts</a></li>
+                <li class="cta"><a href="buy-tickets.php">Register</a></li>
               </ul>
             </nav>
           </div>
@@ -191,7 +191,7 @@
 			 <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="300">
             <div class="testimony text-center">
               <figure>
-                <img src="/images/Mayank.jpg" alt="Image" class="img-fluid">
+                <img src="/images/mayank.jpg" alt="Image" class="img-fluid">
               </figure>
               <blockquote>
                 <p class="author mb-0">Mayank Mehra</p>
@@ -297,8 +297,8 @@
         <div class="row mb-5">
           <div class="col-md-4">
             <h2 class="footer-heading text-uppercase mb-4">About Event</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto.</p>
-          </div>
+            <p>Hackathon 2.0 Technical Festival organised by the students community of Himalayan School Of Science & Technology to be held in the month of May 2019.</p>
+			</div>
           <div class="col-md-3 ml-auto">
             <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
             <ul class="list-unstyled">
@@ -313,7 +313,7 @@
             <p>
               <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
               <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-2"><span class="icon-youtube"></span></a>
+              <a href="https://www.youtube.com/channel/UCR94WwWnh1VC11lQZS8fZqA" class="p-2"><span class="icon-youtube"></span></a>
               <a href="#" class="p-2"><span class="icon-instagram"></span></a>
             </p>
           </div>
@@ -323,10 +323,10 @@
             <div class="col-md-12 text-center">
               <div class="border-top pt-5">
               <p>
+             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights reserved| Hackathon HSST|</i><a href="http://srhu.edu.in/" target="_blank" >SRHU</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              </p>
+			  </p>
             </div>
           </div>
         </div>
