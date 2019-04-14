@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Doodle &mdash; Colorlib Website Template</title>
+    <title>COUNTER STRIKE &mdash; registration</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,7 +21,7 @@
     <script type="text/javascript">
       function paymentpage(resp,event)
       {
-        var formname = 'doodle';
+        var formname = 'pubg';
         var clgName = $('input[name=clgName]').val();
         var team_name = $('input[name=team_name]').val();
         var team_leader_name = $('input[name=team_leader_name]').val();
@@ -77,7 +77,7 @@
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-12 col-xl-3">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Hackathon <span class="text-primary">2.0</span> </a></h1>
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">HACKATHON <span class="text-primary">2.0</span> </a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -86,7 +86,7 @@
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
                 <li><a href="news.php">News</a></li>
-                <li class="active"><a href="contact.php">contacts</a></li>
+                <li class="active"><a href="contact.php">Contacts</a></li>
                 <li class="cta"><a href="register.php">Register</a></li>
               </ul>
             </nav>
@@ -101,8 +101,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
-            <span class="d-block mb-3 caption" data-aos="fade-up">Welcome</span>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Doodle Quiz Registration</h1>
+            <span class="d-block mb-3 caption" data-aos="fade-up">Welcome </span>
+            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Counter-Strike Registration</h1>
           </div>
         </div>
       </div>
@@ -136,34 +136,33 @@
 
               <div class="row form-group">
                 <div class="col-md-6">
-                  <label class="" for="team_member">Number Of Team Members</label> 
-                  <input type="number" min = "4" max = "4" id="team_member" name = "team_member" class="form-control">
-                </div>
-              
-                <div class="col-md-6">
-                  <label class="" for="mobile">mobile Number</label> 
-                  <input type="number" minlength = "10" maxlength = "10" id="mobile" name = "mobile" class="form-control">
-                </div>
-              </div>
-			  
-      			  <div class = "row form-group">
-                <div class="col-md-6">
-                  <label class="" for="program">Program</label>
+                  <label class="" for="program">Program</label> 
                   <input type="text" id="program" name = "program" class="form-control">
                 </div>
 
                 <div class="col-md-6">
-                  <label class="" for="year">Year</label>
-                  <input type="number" id="year" name = "year" class="form-control">
+                  <label class="" for="year">Year</label> 
+                  <input type="number" min = "1" max = "6" id="year" name = "year" class="form-control">
                 </div>
               </div>
 
-				      <div class="row form-group">
-                <div class="col-md-12">
+              <div class="row form-group">
+                <div class="col-md-6">
+                  <label class="" for="team_member">Team Members</label> 
+                  <input type="number" min = "3" max = "5" id="team_member" name = "team_member" class="form-control">
+                </div>
+
+                <div class="col-md-6">
                   <label class="" for="email">Email ID</label> 
                   <input type="email" id="email" name = "email" class="form-control">
                 </div>
               </div>
+
+              <div class="row form-group">
+                <div class="col-md-6">
+                  <label class="" for="mobile">Mobile</label> 
+                  <input type="mobile" id="mobile" name = "mobile" class="form-control">
+                </div>
 
               <div class="row form-group">
                 <div class="col-md-12">
@@ -184,13 +183,14 @@
           <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="p-4 mb-3">
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Note:</p>
-              <p class="mb-4">Play & Enjoy!</p>
+			  <p class="mb-4">Each team could have a minimum of 3 & a maximum of 5 members</p>
+              <p class="mb-4">Each team have to submit 100 INR for the CounterStrike</p>
 
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Phone</p>
               <p class="mb-4"><a href="#">+91-6396754998</a></p>
 
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Email Address</p>
-              <p class="mb-0"><a href="#">itscoolgirls@gmail.com</a></p>
+              <p class="mb-0"><a href="#">itscoolparth@gmail.com</a></p>
 
             </div>
           </div>

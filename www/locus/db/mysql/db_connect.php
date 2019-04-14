@@ -22,9 +22,17 @@
 
 		function execute($query)
 		{
-			if(mysqli_query($this->conn, $query))
+			$res = mysqli_query($this->conn, $query);
+			if($res)
 			{
-				return true;
+				if (mysqli_num_rows($res) > 0) {
+				    while($row = mysqli_fetch_assoc($res)) {
+				        return $row;
+				    }
+				} 
+				else {
+				    return true;
+				}
 			}
 			else
 			{

@@ -9,12 +9,14 @@ function ajax(sourceid, destinationfile, targetdiv)
 	});
 }
 
-function ajaxonload(destinationfile, targetdiv)
+function AjaxForm(destinationfile,form_data)
 {
-	$(document).ready(function()
-	{
-		$.ajax({ url: destinationfile, context: document.body, success: function(){
-           $(targetdiv).html(result);
-        }});
-	});
+	$.ajax({
+      url: destinationfile,
+      type: "POST",
+      data: form_data,
+      success: function(resp) {
+        return resp
+      }      
+    });
 }

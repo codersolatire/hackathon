@@ -19,9 +19,46 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <script type="text/javascript">
-      function payemntpage(resp,event)
+      function paymentpage(resp,event)
       {
-        alert("Successfully registered. Move to payemnt page");
+        var formname = 'treausre_hunt';
+        var clgName = $('input[name=clgName]').val();
+        var team_name = $('input[name=team_name]').val();
+        var team_leader_name = $('input[name=team_leader_name]').val();
+        var program = $('input[name=program]').val()
+        var year = $('input[name=year]').val()
+        var team_member = $('input[name=team_member]').val();
+        var mobile = $('input[name=mobile]').val();
+        var email = $('input[name=email]').val();
+        var password = $('input[name=password]').val();
+        var other_members = $('input[name=other_members]').val();
+
+        var form_data = 
+        'formname='+formname+
+        '&clgName='+clgName+
+        '&team_name='+team_name+
+        '&team_leader_name='+team_leader_name+
+        '&program='+program+
+        '&year='+year+
+        '&team_member='+team_member+
+        '&mobile='+mobile+
+        '&email='+email+
+        '&password='+password+
+        '&other_members='+other_members;
+
+        $.ajax({
+          url: "submit_form.php",
+          type: "POST",
+          data: form_data,
+          success: function(obj) {
+            var jsonobj = JSON.parse(obj);
+            alert(jsonobj.text+"Move to payment page");
+            location.href = "/interface/payment/index.php";
+          }
+        });
+
+        $('.text').attr('disabled','true');
+        // alert("Successfully registered. Move to payemnt page");
       }
     </script>
   </head>
@@ -52,7 +89,7 @@
                 <li><a href="speakers.php">Speakers</a></li>
                 <li><a href="news.php">News</a></li>
                 <li class="active"><a href="contact.php">Contacts</a></li>
-                <li class="cta"><a href="buy-tickets.php">Buy Tickets</a></li>
+                <li class="cta"><a href="register.php">Register</a></li>
               </ul>
             </nav>
           </div>
@@ -106,8 +143,8 @@
                 </div>
         
                 <div class="col-md-6">
-                    <label class="" for="contact">Contact Number</label> 
-                    <input type="number" minlength = "10" maxlength = "10" id="contact" name = "contact" class="form-control">
+                    <label class="" for="mobile">mobile Number</label> 
+                    <input type="mobile" minlength = "10" maxlength = "10" id="mobile" name = "mobile" class="form-control">
                 </div>
               </div>
 			  
@@ -145,7 +182,7 @@
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <input type="submit" value="Proceed to Payment" onclick="payemntpage(this,event)" class="btn btn-primary py-2 px-4 text-white">
+                  <input type="button" value="Proceed to Payment" onclick="paymentpage(this,event)" class="btn btn-primary py-2 px-4 text-white">
                 </div>
               </div>
 

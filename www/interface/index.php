@@ -44,9 +44,8 @@
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
-                <li><a href="news.php">News</a></li>
                 <li><a href="contact.php">Contacts</a></li>
-                <li class="cta"><a href="buy-tickets.php">Register</a></li>
+                <li class="cta"><a href="register.php">Register</a></li>
               </ul>
             </nav>
           </div>
@@ -63,7 +62,7 @@
             <span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">Tech Event 2019</span>
             <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="200">Hackathon 2.0</h1>
             <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="300">May 2nd-4th,HSST</span>
-            <a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Register</span></a>
+            <a href="register.php" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Register</span></a>
           </div>
         </div>
       </div>

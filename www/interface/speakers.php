@@ -45,7 +45,7 @@
                 <li class="active"><a href="speakers.php">Speakers</a></li>
                 <li><a href="news.php">News</a></li>
                 <li><a href="contact.php">Contacts</a></li>
-                <li class="cta"><a href="buy-tickets.php">Buy Tickets</a></li>
+                <li class="cta"><a href="register.php">Register</a></li>
               </ul>
             </nav>
           </div>
