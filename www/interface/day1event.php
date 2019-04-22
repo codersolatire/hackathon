@@ -4,8 +4,8 @@
     <div class="row align-items-stretch">
       <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">8:00</span> <span>AM</span></div>
       <div class="col-md-9">
-        <h2 class="text-white">Day 1 Event</h2>
-        <span>Riya u have to change here about the day 1 events</span>
+        <h2 class="text-white"></h2>
+        <span>Ardino Workshop</span>
       </div>
     </div>
   </div>
@@ -14,7 +14,7 @@
     <div class="row align-items-stretch">
       <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">9:30</span> <span>AM</span></div>
       <div class="col-md-9">
-        <h2 class="text-white">Design your open source strategy</h2>
+        <h2 class="text-white">Hackathon</h2>
         <span>Chris Mathews</span>
       </div>
     </div>

@@ -102,7 +102,7 @@
         <div class="row align-items-center">
           <div class="col-md-10">
             <span class="d-block mb-3 caption" data-aos="fade-up">Welcome </span>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Counter-Strike Registration</h1>
+            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">PUBG Registration</h1>
           </div>
         </div>
       </div>
@@ -159,14 +159,15 @@
               </div>
 
               <div class="row form-group">
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <label class="" for="mobile">Mobile</label> 
                   <input type="mobile" id="mobile" name = "mobile" class="form-control">
                 </div>
+              </div>
 
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="" for="other_members">Other Team Member Name (, Seperated)</label> 
+                 <div class="row form-group">
+                  <div class="col-md-12">
+                <label class="" for="other_members">Other Team Member Name(, Seperated)</label> 
                   <input type="text" id="other_members" name = "other_members" class="form-control">
                 </div>
               </div>

@@ -1,0 +1,1 @@
+<img src="/images/paytm_qr" width="100%">

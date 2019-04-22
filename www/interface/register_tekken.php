@@ -115,7 +115,7 @@
             <form action="#">
              
 
-              <div class="row form-group">
+            <div class="row form-group">
                 <div class="col-md-12">
                   <label class="" for="fname">Institution Name</label>
                   <input type="text" id="fname" name = "clgName" class="form-control">
@@ -128,17 +128,19 @@
                   <input type="text" id="team_name" name = "team_name" class="form-control">
                 </div>
 				
-				        <div class="col-md-6">
+		        <div class="col-md-6">
                   <label class="" for="mobile">mobile Number</label> 
                   <input type="number" minlength = "10" maxlength = "10" id="mobile" name = "mobile" class="form-control">
                 </div>
-				      </div>
+		      </div>
 
-                <div class="col-md-12">
-                  <label class="" for="team_leader_name">Team Leader Name</label>
-                  <input type="text" id="team_leader_name" name = "team_leader_name" class="form-control">
-                </div>
-              </div>
+		    <div class = "row form-group">
+
+	            <div class="col-md-12">
+	                  <label class="" for="team_leader_name">Team Leader Name</label>
+	                  <input type="text" id="team_leader_name" name = "team_leader_name" class="form-control">
+	        	</div>
+	        </div>
 
               <div class="row form-group">
                 <div class="col-md-6">
@@ -157,6 +159,7 @@
                   <label class="" for="team_member">Team Members</label> 
                   <input type="number" maxlength="10" minlength="10" id="team_member" name = "team_member" class="form-control">
                 </div>
+            </div>
 			
 				      <div class="row form-group">
                 <div class="col-md-12">

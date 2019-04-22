@@ -36,7 +36,7 @@
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-11 col-xl-2">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">HSST<span class="text-primary">(SRHU)</span> </a></h1>
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">HSST|<span class="text-primary">SRHU</span> </a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -230,7 +230,7 @@
               <div class="border-top pt-5">
               <p>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights reserved| Hackathon HSST|</i><a href="https://www.google.com/http://srhu.edu.in" target="_blank" >SRHU</a>
+                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved| Hackathon HSST|</i><a href="https://www.google.com/http://srhu.edu.in" target="_blank" >SRHU</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>

@@ -10,7 +10,7 @@
 		{
 			$this->dbname = $dbname;
 
-			$dbc = new db_credentials("techranger","techranger@1322","hackathon");
+			$dbc = new db_credentials("techranger","techranger#1322","hackathon");
 			$username = $dbc->getuser();
 			$password = $dbc->getpass();
 			$dbname = $dbc->getdbname();

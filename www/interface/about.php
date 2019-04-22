@@ -43,7 +43,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li class="active"><a href="about.php">About Us</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
-                <li><a href="news.php">News</a></li>
+               
                 <li><a href="contact.php">Contacts</a></li>
                 <li class="cta"><a href="register.php">Register</a></li>
               </ul>
@@ -91,7 +91,7 @@
             <p>There was an idea,to bring together a group of remarkable people,to see if we could become more...""</p>
             <p>It's time for the euphoria to take over, and masts to set high. It's time for the best minds to compete in the bettle for glory. People, Its time to put on your capes and strap on your boots and prepare for the ultimate challenge!</p>
             <p>Hackathon 2.0 brings to you Technical Fest of HSST,a fun filled extravaganza for everyone who is willing to knock their nerves and get upon the rides! </p>
-            <p>The arena is set,the dates are here.Are you ready? 4th, 5th and 6th of May. Be there !</p>
+            <p>The arena is set,the dates are here.Are you ready? 2nd, 3rd and 4th of May. Be there !</p>
             <div class="d-flex coordinator align-items-center">
              
                 <img src="/images/pps.jpg" alt="Image" class="img-fluid">
@@ -261,7 +261,7 @@
             </div>
           </div>
           <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p>
+            <p></p>
           </div>
         </div>
         <div class="row">

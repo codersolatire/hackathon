@@ -1,0 +1,1 @@
+<img src="/images/bhim_qr" width="100%">

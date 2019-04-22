@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+<?php
+  include "../../locus/db/mysql/db_connect.php";
+  $db = new db_connect();
+  $GLOBALS['team_name'] = $_GET["team_name"];
+  $GLOBALS['event_name'] = $_GET["event_name"];
+  $q = "select payment_status from reg_hackathon where team_name =".$GLOBALS['event_name'];
+  $res = $db->execute($q);
+?>
 <head>
   <title>Payment</title>
   <meta charset="utf-8">
@@ -14,49 +22,26 @@
       <div class="container">
         <div class="block-heading">
           <h2>Payment</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+          <p>Welcome <?=$team_name?>, Payment for <?=$event_name?></p>
         </div>
-        <form>
+        <form action = "upload.php?event_name=<?=$GLOBALS['event_name']?>&team_name=<?=$GLOBALS['team_name']?>" method="post" enctype="multipart/form-data">
           <div class="products">
             <h3 class="title">Checkout</h3>
             <div class="item">
-              <span class="price">$200</span>
-              <p class="item-name">Product 1</p>
-              <p class="item-description">Lorem ipsum dolor sit amet</p>
+              <p class="item-name" align="center">
+                <img src="/images/paytm_img.png" id = "paytm_logo" width="160px" onclick="showpaytm(this,event);" />
+                <img src="/images/google_pay_img.png"width="160px" onclick="showgooglepay(this,event);"/>
+                <img src="/images/bhim_img.png"width="160px" onclick="showbhim(this,event);"/>
+              </p>
             </div>
-            <div class="item">
-              <span class="price">$120</span>
-              <p class="item-name">Product 2</p>
-              <p class="item-description">Lorem ipsum dolor sit amet</p>
+            <div id = "showqr" align="center">
+              <div class="total" align="left">QR Code<span class="price">Scan and Pay</span></div>
             </div>
-            <div class="total">Total<span class="price">$320</span></div>
-          </div>
-          <div class="card-details">
-            <h3 class="title">Credit Card Details</h3>
-            <div class="row">
-              <div class="form-group col-sm-7">
-                <label for="card-holder">Card Holder</label>
-                <input id="card-holder" type="text" class="form-control" placeholder="Card Holder" aria-label="Card Holder" aria-describedby="basic-addon1">
-              </div>
-              <div class="form-group col-sm-5">
-                <label for="">Expiration Date</label>
-                <div class="input-group expiration-date">
-                  <input type="text" class="form-control" placeholder="MM" aria-label="MM" aria-describedby="basic-addon1">
-                  <span class="date-separator">/</span>
-                  <input type="text" class="form-control" placeholder="YY" aria-label="YY" aria-describedby="basic-addon1">
-                </div>
-              </div>
-              <div class="form-group col-sm-8">
-                <label for="card-number">Card Number</label>
-                <input id="card-number" type="text" class="form-control" placeholder="Card Number" aria-label="Card Holder" aria-describedby="basic-addon1">
-              </div>
-              <div class="form-group col-sm-4">
-                <label for="cvc">CVC</label>
-                <input id="cvc" type="text" class="form-control" placeholder="CVC" aria-label="Card Holder" aria-describedby="basic-addon1">
-              </div>
-              <div class="form-group col-sm-12">
-                <button type="button" class="btn btn-primary btn-block">Proceed</button>
-              </div>
+            <br />
+            <div id="paymentdone">
+              Upload the screenshot of the payment.
+              <input type="file" name="fileToUpload" id = "fileToUpload" class="btn btn-block"/>
+              <input type="submit" value="Upload Image" name="submit" class="btn btn-primary btn-block">
             </div>
           </div>
         </form>
@@ -66,5 +51,24 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="/locus/locusjs/wrapjs.js"></script>
+
+<script type="text/javascript">
+  function showpaytm(target,event)
+  {
+    ajax(target,"showpaytmqr.php",document.getElementById("showqr"));
+  }
+
+  function showgooglepay(target,event)
+  {
+    ajax(target,"showgooglepayqr.php",document.getElementById("showqr"));
+  }
+
+  function showbhim(target,event)
+  {
+    ajax(target,"showbhimqr.php",document.getElementById("showqr"));
+  }
+  location.href = "#showqr";
+</script>
 </body>
 </html>

@@ -1,0 +1,1 @@
+<img src="/images/google_pay_qr" width="100%">

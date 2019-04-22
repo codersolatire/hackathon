@@ -43,7 +43,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
-                <li><a href="news.php">News</a></li>
+                
                 <li class=""><a href="contact.php">Contacts</a></li>
                 <li class="cta"><a href="register.php">Register</a></li>
               </ul>
@@ -73,46 +73,46 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0"  data-aos="fade-up" data-aos-delay="200">
             <div class="pricing border-secondary text-center">
-              <h2>Doodle Quiz</h2>
-              <div class="amount"><sup>$</sup><span class="number">190</span> </div>
+              <h2>Fun Activity</h2>
+              <div class="amount"><sup>₹</sup><span class="number">100</span> </div>
               <ul class="list-unstyled mb-5">
-                <li>1-Day Entrance</li>
-                <li>Essential Access</li>
-                <li>1 Guest Ticket</li>
-                <li>1 Workshop</li>
-                <li>Free Snacks</li>
+                <li><a href="http://hackathon.awgp.in/interface/register_doodle.php">Doodle Quiz</li>
+                <li><a href="http://hackathon.awgp.in/interface/register_photography.php">Photography</li>
+                <li><a href="">Logo Design</li>
+                <li><a href="http://hackathon.awgp.in/interface/register_poster.php">Poster Design </li>
+                <li><a href="http://hackathon.awgp.in/interface/register_meme.php">Memes Design</li>
               </ul>
-              <div><a href="#" class="btn btn-secondary px-4 py-2">Buy Ticket</a></div>
+              <div><a href="http://hackathon.awgp.in/interface/register_hackathon.php" class="btn btn-secondary px-4 py-2">Register</a></div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="pricing border-primary text-center">
               <h2>Hackathon Event</h2>
-              <div class="amount"><sup>$</sup><span class="number">289</span> </div>
+              <div class="amount"><sup>₹</sup><span class="number">100</span> </div>
               <ul class="list-unstyled mb-5">
-                <li>1-Day Entrance</li>
-                <li>Essential Access</li>
-                <li>1 Guest Ticket</li>
-                <li>1 Workshop</li>
-                <li>Free Snacks</li>
+                <li><a href="http://hackathon.awgp.in/interface/register_ethical.php">Ethical Hacking</li>
+                <li><a href="http://hackathon.awgp.in/interface/register_ethical.php">Blind-Fold Coding</li>
+                <li><a href="http://hackathon.awgp.in/interface/register_ethical.php">Code Debugging</li>
+				<li><a href="http://hackathon.awgp.in/interface/register_ethical.php">Problem Solving</li>
+                <li><a href="http://hackathon.awgp.in/interface/register_ethical.php">Technical Presentation</li>
               </ul>
-              <div><a href="#" class="btn btn-primary px-4 py-2">Buy Ticket</a></div>
+              <div><a href="http://hackathon.awgp.in/interface/register_hackathon.php" class="btn btn-primary px-4 py-2">Register</a></div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="400">
             <div class="pricing border-secondary text-center">
               <h2>Gaming</h2>
-              <div class="amount"><sup>$</sup><span class="number">490</span> </div>
+              <div class="amount"><sup>₹</sup><span class="number">100</span> </div>
               <ul class="list-unstyled mb-5">
-                <li>1-Day Entrance</li>
-                <li>Essential Access</li>
-                <li>1 Guest Ticket</li>
-                <li>1 Workshop</li>
-                <li>Free Snacks</li>
-              </ul>
-              <div><a href="#" class="btn btn-secondary px-4 py-2">Buy Ticket</a></div>
+                <li><a href="http://hackathon.awgp.in/interface/register_treasure_hunt.php">Treasure Hunt</li>
+                <li><a href="http://hackathon.awgp.in/interface/register_tekken.php">Tekken</li>
+                <li><a href="http://hackathon.awgp.in/interface/register_pubg.php">PUBG</li>
+                <li><a href="http://hackathon.awgp.in/interface/register_counter_strike.php">Counter Strike</li>
+				<li><br></li>
+                </ul>
+              <div><a href="http://hackathon.awgp.in/interface/register_hackathon.php" class="btn btn-secondary px-4 py-2">Register</a></div>
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-4 mb-5">
             <div class="site-section-heading">
-              <h2 class="text-center">Testimonials</h2>
+              <h2 class="text-center">Faculty</h2>
             </div>
           </div>
         </div>
@@ -136,11 +136,11 @@
 
             <div class="testimony text-center col-md-5">
               <figure>
-                <img src="/images/person_1.jpg" alt="Image" class="img-fluid">
+                <img src="/images/dean.jpg" alt="Image" class="img-fluid">
               </figure>
               <blockquote>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-                <p class="author">&mdash; Emely Peters</p>
+                <p>Principal, Himalayan School of Science & Technology and Dean, Faculty of Science & Technology</p>
+				<p class="author">&mdash; Dr. R.C. Ramola</p>
               </blockquote>
             </div>
           </div>
@@ -148,11 +148,10 @@
           <div class="row justify-content-center">
            <div class="testimony text-center col-md-5">
               <figure>
-                <img src="/images/person_2.jpg" alt="Image" class="img-fluid">
+                <img src="/images/gaurav.jpg" alt="Image" class="img-fluid">
               </figure>
               <blockquote>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-                <p class="author">&mdash; Alex Anchors</p>
+                <P></P><p class="author">&mdash; Mr. Gaurav Sharma</p>
               </blockquote>
             </div>
           </div>
@@ -160,52 +159,16 @@
           <div class="row justify-content-center">
             <div class="testimony text-center col-md-5">
               <figure>
-                <img src="/images/person_3.jpg" alt="Image" class="img-fluid">
+                <img src="/images/yogi.jpg" alt="Image" class="img-fluid">
               </figure>
               <blockquote>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-                <p class="author">&mdash; Aaron Thomas</p>
+                <P></p>
+				<p class="author">&mdash; Mr. Yogesh Pant</p>
               </blockquote>
             </div>
           </div>
+	</div>
 
-          <div class="row justify-content-center">
-            <div class="testimony text-center col-md-5">
-              <figure>
-                <img src="/images/person_1.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <blockquote>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-                <p class="author">&mdash; Emely Peters</p>
-              </blockquote>
-            </div>
-          </div>
-
-          <div class="row justify-content-center">
-           <div class="testimony text-center col-md-5">
-              <figure>
-                <img src="/images/person_2.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <blockquote>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-                <p class="author">&mdash; Alex Anchors</p>
-              </blockquote>
-            </div>
-          </div>
-
-          <div class="row justify-content-center">
-            <div class="testimony text-center col-md-5">
-              <figure>
-                <img src="/images/person_3.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <blockquote>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime exercitationem alias reprehenderit error quidem aliquam ad minus, veritatis modi.&rdquo;</p>
-                <p class="author">&mdash; Aaron Thomas</p>
-              </blockquote>
-            </div>
-          </div>
-
-        </div>
 
 
 
@@ -224,7 +187,7 @@
               <div class="border-top pt-5">
               <p>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights reserved| Hackathon HSST|</i><a href="https://www.google.com/http://srhu.edu.in" target="_blank" >SRHU</a>
+                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights reserved| Hackathon HSST|</i><a href="http://srhu.edu.in" target="_blank" >SRHU</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>

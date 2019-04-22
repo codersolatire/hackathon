@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Treasure_Hunt &mdash; Colorlib Website Template</title>
+    <title>Logo_Design &mdash; Colorlib Website Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,30 +21,20 @@
     <script type="text/javascript">
       function paymentpage(resp,event)
       {
-        var formname = 'treausre_hunt';
+        var formname = 'meme';
         var clgName = $('input[name=clgName]').val();
-        var team_name = $('input[name=team_name]').val();
-        var team_leader_name = $('input[name=team_leader_name]').val();
         var program = $('input[name=program]').val()
         var year = $('input[name=year]').val()
-        var team_member = $('input[name=team_member]').val();
         var mobile = $('input[name=mobile]').val();
         var email = $('input[name=email]').val();
-        var password = $('input[name=password]').val();
-        var other_members = $('input[name=other_members]').val();
 
         var form_data = 
         'formname='+formname+
         '&clgName='+clgName+
-        '&team_name='+team_name+
-        '&team_leader_name='+team_leader_name+
         '&program='+program+
         '&year='+year+
-        '&team_member='+team_member+
         '&mobile='+mobile+
-        '&email='+email+
-        '&password='+password+
-        '&other_members='+other_members;
+        '&email='+email;
 
         $.ajax({
           url: "submit_form.php",
@@ -87,8 +77,8 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
-                <li><a href="news.php">News</a></li>
-                <li class="active"><a href="contact.php">Contacts</a></li>
+                
+                <li class="active"><a href="contact.php">contacts</a></li>
                 <li class="cta"><a href="register.php">Register</a></li>
               </ul>
             </nav>
@@ -104,7 +94,7 @@
         <div class="row align-items-center">
           <div class="col-md-10">
             <span class="d-block mb-3 caption" data-aos="fade-up">Welcome</span>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Treasure Hunt Registration</h1>
+            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Logo Design Registration</h1>
           </div>
         </div>
       </div>
@@ -126,29 +116,18 @@
 
               <div class = "row form-group">
                 <div class="col-md-6">
-                  <label class="" for="team_name">Team Name</label>
-                  <input type="text" id="team_name" name = "team_name" class="form-control">
+                  <label class="" for="participant_name">Participant's Name</label>
+                  <input type="text" id="participant_name" name = "participant_name" class="form-control">
                 </div>
 
-                <div class="col-md-6">
-                  <label class="" for="team_leader_name">Team Leader Name</label>
-                  <input type="text" id="team_leader_name" name = "team_leader_name" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-6">
-                  <label class="" for="team_member">Number Of Team Members</label> 
-                  <input type="number" min = "3" max = "5" id="team_member" name = "team_member" class="form-control">
-                </div>
-        
-                <div class="col-md-6">
-                    <label class="" for="mobile">mobile Number</label> 
-                    <input type="mobile" minlength = "10" maxlength = "10" id="mobile" name = "mobile" class="form-control">
-                </div>
-              </div>
 			  
-			  <div class = "row form-group">
+				 <div class="col-md-6">
+                  <label class="" for="mobile">Mobile Number</label> 
+                  <input type="number" minlength = "10" maxlength = "10" id="mobile" name = "mobile" class="form-control">
+                </div>
+				</div>
+				 
+				 <div class = "row form-group">
                 <div class="col-md-6">
                   <label class="" for="program">Program</label>
                   <input type="text" id="program" name = "program" class="form-control">
@@ -161,22 +140,9 @@
               </div>
 
 				<div class="row form-group">
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <label class="" for="email">Email ID</label> 
                   <input type="email" id="email" name = "email" class="form-control">
-                </div>
-              
-
-               <div class="col-md-6">
-                  <label class="" for="password">Password</label> 
-                  <input type="password" id="password" name = "password" class="form-control">
-                </div>
-              </div>
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="" for="other_members">Other Team Member Name (, Seperated)</label> 
-                  <input type="text" id="other_members" name = "other_members" class="form-control">
                 </div>
               </div>
 
@@ -192,8 +158,7 @@
           <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="p-4 mb-3">
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Note:</p>
-              <p class="mb-4">Each team has to submit Rs. 50 for the Treasure Hunt.</p>
-			  <p class="mb-4">Participants will get their first clue from the Ardino Workshop.</p>
+              <p class="mb-4">Theme: Hackathon/IBM/LMS</p>
 
               <p class="mb-0 font-weight-bold text-secondary text-uppercase mb-3">Phone</p>
               <p class="mb-4"><a href="#">+91-6396754998</a></p>

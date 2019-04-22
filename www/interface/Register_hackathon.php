@@ -55,7 +55,7 @@
           success: function(obj) {
             var jsonobj = JSON.parse(obj);
             alert(jsonobj.text+"Move to payment page");
-            location.href = "/interface/payment/index.php";
+            location.href = "/interface/payment/index.php?team_name="+team_name+"&event_name="+formname;
           }
         });
 

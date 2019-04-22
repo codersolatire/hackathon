@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Ethical Hacking &mdash; Colorlib Website Template</title>

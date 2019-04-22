@@ -35,7 +35,7 @@
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-11 col-xl-2">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Hackathon<span class="text-primary"> 2.0</span> </a></h1>
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">HSST|<span class="text-primary">SRHU</span> </a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -43,7 +43,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
                 <li class="active"><a href="speakers.php">Speakers</a></li>
-                <li><a href="news.php">News</a></li>
+                
                 <li><a href="contact.php">Contacts</a></li>
                 <li class="cta"><a href="register.php">Register</a></li>
               </ul>
